@@ -43,9 +43,7 @@ function Header() {
 
           </div></div>
         
-      </div>
-        <Body />
-        
+      </div>       
     </>
   );
 }

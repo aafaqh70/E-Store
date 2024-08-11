@@ -32,10 +32,13 @@
     position: absolute;
     bottom: 0;
     width: 100%;
+    padding: 0;
 }
 
 .facilities-container{
     height: 5.7rem;
+    margin: 0;
+    padding: 0;
     background-color: white;
     justify-items: end;
     justify-content: end;

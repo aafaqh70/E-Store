@@ -56,6 +56,7 @@
   color: rgb(0, 0, 0);
 }
 
+
 .men {
   left: 50%;
 }
@@ -81,6 +82,11 @@
   padding: 0;
   align-items: center;
   justify-content: center;
+}
+
+.foryou-row{
+  margin: 0;
+  padding: 0;
 }
 
 .product {
@@ -150,7 +156,7 @@
   background-image: url("/images/New-Collection--img.png");
   height: 80vh !important;
   width: 100%;
-  margin: 0;
+  margin-top: 4rem;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -217,33 +223,4 @@
     }
 
 
-    /* Footer */
-
-    .footer-row, .fotor-row{
-      margin: 0;
-      padding: 0;
-    }
-    .fotor{
-        margin-top: 3rem;
-    }
-    .fotorContainer .hading{
-        font-size: 0.8rem;
-        font-weight: bold;
-    }
-    .fotorContainer ul{
-        font-size: 0.7rem;
-        list-style-type: none;
-        padding: 0;
-        margin: 0;
-    }
-    .fotorContainer .about-text{
-        font-size: 0.7rem;
-    }
-    .fotorContainer .links{
-        display: flex;
-        justify-content: space-between;
-    }
-    .footer-copyright{
-        text-align: center;
-        font-size: 0.7rem;
-    }
+ 

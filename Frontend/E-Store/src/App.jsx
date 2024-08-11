@@ -8,6 +8,7 @@ import { Routes, Route } from "react-router-dom";
 import Show from './components/Collection/show'
 import Edit from './components/product/edit'
 import Add from './components/product/Add'
+import Body from './components/Body/Body'
 
 
 function App() {
@@ -15,7 +16,7 @@ function App() {
     <>
     
     <Routes>
-      <Route path='/' element = {<Header />} />
+      <Route path='/' element = {<Body />} />
       <Route path='/collection' element = {<Show /> } />
       <Route path='/product' element = {<Product />} />
       <Route path='/product/edit' element = {<Edit />} />

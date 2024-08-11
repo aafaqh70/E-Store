@@ -1,0 +1,30 @@
+   /* Footer */
+
+   .footer-row, .fotor-row{
+    margin: 0;
+    padding: 0;
+  }
+  .fotor{
+      margin-top: 3rem;
+  }
+  .fotorContainer .hading{
+      font-size: 0.8rem;
+      font-weight: bold;
+  }
+  .fotorContainer ul{
+      font-size: 0.7rem;
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+  }
+  .fotorContainer .about-text{
+      font-size: 0.7rem;
+  }
+  .fotorContainer .links{
+      display: flex;
+      justify-content: space-between;
+  }
+  .footer-copyright{
+      text-align: center;
+      font-size: 0.7rem;
+  }
