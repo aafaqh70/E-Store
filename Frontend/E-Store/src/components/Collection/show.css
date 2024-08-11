@@ -1,0 +1,29 @@
+/* cards */
+
+.row {
+    margin: 0;
+    padding: 0;
+}
+.show-card{
+    border: 1px solid #808080 !important;
+    margin-top: 2rem;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    width: 100% !important;
+    object-fit: contain !important;
+    height: 15rem !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
+
+.card-text p {
+    font-weight: 400 !important;
+}
+
+a{
+    text-decoration: none;
+}

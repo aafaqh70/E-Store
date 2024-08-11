@@ -1,0 +1,249 @@
+/* .image-container {
+    position: relative;
+    left: auto;
+    right: auto;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.image-container img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+    width: 80%;
+} */
+
+.banner-row {
+  margin: 0;
+  padding: 0;
+}
+
+.banner {
+  margin-top: 5rem;
+  padding: 0;
+}
+
+.image-container-men {
+  position: relative;
+  margin-right: 0.5rem;
+}
+.image-container-women {
+  position: relative;
+  margin-left: 0.5rem;
+}
+
+/* .image-container img {
+    width: 100%;
+    height: auto;
+} */
+
+.banner-text {
+  position: absolute;
+  top: 30%;
+  width: 80%;
+  color: rgb(0, 0, 0);
+}
+
+.men {
+  left: 50%;
+}
+
+.women {
+  left: 13%;
+}
+
+.banner-viewall {
+  font-size: 0.7rem;
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+.banner-viewall img {
+  padding: 0.8rem;
+  filter: invert(100%) brightness(0%);
+}
+
+/* Foryou PRoducts*/
+
+.product-row {
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.product {
+  margin-top: 2rem;
+  padding: 0;
+}
+
+.image-container-product {
+  margin-right: 0.5rem;
+}
+
+.productName {
+  font-size: 0.7rem;
+  margin-bottom: 0px;
+}
+.productPrice {
+  font-size: 0.6rem;
+}
+
+/* Just for you */
+.textbtn{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 4rem;
+}
+
+.textbtn button{
+  border: 1px solid rgb(201, 200, 200);
+  border-radius: 1rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background-color: white;
+}
+
+/* WyUS */
+
+.imageContainer {
+  background-color: rgb(227, 227, 227);
+  height: 3.5rem;
+  width: 3.5rem;
+  border-bottom: 2px solid blue;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.whyheading{
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.itemName {
+  font-size: 0.7rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+}
+.itemdis {
+  font-size: 0.6rem;
+}
+
+/* newCollectio-container */
+
+.newCollection {
+  background-image: url("/images/New-Collection--img.png");
+  height: 80vh !important;
+  width: 100%;
+  margin: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.newCollection-row {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0 !important;
+}
+.newCollectio-container {
+  background-color: white;
+  border-top-left-radius: 2.5rem;
+  height: 7rem;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  color: black;
+}
+.bottom_div {
+  padding: 0;
+}
+
+.New-Collection {
+    padding-left: 4rem;
+    padding-right: 0;
+}
+
+.newCollection-dis {
+  font-size: 0.6rem;
+  margin: 0;
+}
+
+.New-Collection-btn button{
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    border-radius: 2rem;
+    border: none;
+    }
+
+    /* Logo */
+
+    .logo-row{
+      margin: 0;
+      padding: 0;
+    }
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5rem;
+        margin-bottom: 4rem;
+    }
+
+    .logoContainer img {
+        max-width: 60px;
+        max-height: 600px;
+
+    }
+
+
+    /* Footer */
+
+    .footer-row, .fotor-row{
+      margin: 0;
+      padding: 0;
+    }
+    .fotor{
+        margin-top: 3rem;
+    }
+    .fotorContainer .hading{
+        font-size: 0.8rem;
+        font-weight: bold;
+    }
+    .fotorContainer ul{
+        font-size: 0.7rem;
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    .fotorContainer .about-text{
+        font-size: 0.7rem;
+    }
+    .fotorContainer .links{
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer-copyright{
+        text-align: center;
+        font-size: 0.7rem;
+    }

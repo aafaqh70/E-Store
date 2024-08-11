@@ -1,0 +1,58 @@
+.header{
+    background-image: url('/images/Slider-img.png');
+    height: 100vh !important;
+    width: 100%;
+    margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+  justify-content: space-between;
+}
+.header-content{
+    position: absolute;
+    top: 33%;
+    left: 19%;
+    color: white;
+
+}
+.header-buynow{
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding-left: 1.5rem;
+}
+.header-buynow img{
+    padding: 0.8rem;
+}
+
+/* Facilities container */
+
+.header-bottom {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.facilities-container{
+    height: 5.7rem;
+    background-color: white;
+    justify-items: end;
+    justify-content: end;
+    border-top-right-radius: 2.5rem;
+}
+
+.facility{
+  padding-top: 2rem;
+  padding-left: 1rem;
+}
+.facility-h{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.facility-dis{
+    font-size: 0.6rem;
+}
+
+ 
