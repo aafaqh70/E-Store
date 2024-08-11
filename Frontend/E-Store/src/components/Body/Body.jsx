@@ -124,7 +124,8 @@ function Body() {
         <div className="foryou-row row justify-content-between">
           <div className="textbtn">
           <h3 className="">Select just for you</h3>
-          <button className="foryoubtn">show more</button>
+          <Link to="/collection/">
+          <button className="foryoubtn">show more</button></Link>
         </div></div>
         </div>
       </div>

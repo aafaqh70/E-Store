@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import "./navbar.css"
+import { Link } from 'react-router-dom';
 
 function Navbar(){
 
@@ -23,7 +24,7 @@ function Navbar(){
       </button>
       <ul className={`navbar-menu ${isMenuOpen ? 'active' : ''}`}>
         <li><a href="#">Home</a></li>
-        <li><a href="#">Pages</a></li>
+        <li><Link to="/product/new">Add Poduct</Link></li>
         <li><a href="#">Shop</a></li>
         <li><a href="#">Blog</a></li>
         <li><a href="#">Contact Us</a></li>
