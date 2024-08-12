@@ -13,9 +13,9 @@ function Header() {
   const facilitiesDis = [""];
 
   return (
-    <>
-      <div className="header">
-        <Navbar />
+    <> 
+      <div className="he">
+      <Navbar />
         <div className="header-content">
           <p className="header-sale">SALE</p>
           <h1 className="header-heading">
@@ -28,22 +28,26 @@ function Header() {
             </a>
           </p>
         </div>
-        <div className="header-bottom row justify-content-center">
-          <div className="col-lg-8 col-md-8">
-        <div className="facilities-container row">
+        <div className="newCollection-row row">
+          
+          <div className="bottom_div col-lg-8 col-md-8">
+          <div className="facilities-container row">
 
-          {facilities.map((facility, index) => (
-            <div className ="facility col-lg-3 col-md-3 col-sm-8" key={index}>
-              <p className="facility-h">{facility}</p>
-              <p className="facility-dis">Fat new smallness few Spausing</p>
-            </div>
-          ))}</div>
+{facilities.map((facility, index) => (
+  <div className ="facility col-lg-3 col-md-3 col-sm-8" key={index}>
+    <p className="facility-h">{facility}</p>
+    <p className="facility-dis">Fat new smallness few Spausing</p>
+  </div>
+))}</div>
+          </div>
+          <div className="header-button col-lg-2 col-md-2 col-sm-0"><a href="#"><img src="/images/left-arrow.png" alt="" /></a>
+          <a href="#"><img src="/images/right-arrow.png" alt="" /></a></div>
+          
+          <div className="col-lg-2 col-md-2"></div>
+          
         </div>
-        <div className="slide-buttons col-lg-4 col-md-4">
-
-          </div></div>
         
-      </div>       
+      </div>     
     </>
   );
 }
